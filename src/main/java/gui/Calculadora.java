@@ -14,12 +14,12 @@ public class Calculadora extends Application {
     @Override
     public void start(Stage window) throws Exception {
         VBox vb = new VBox();
-        window.setTitle("Calculadora"); // Título de la ventana
+        window.setTitle("Calculadora"); 
 
-        vb.getChildren().add(new Calculator()); // Agrega el contenido de la calculadora
-        Scene sc = new Scene(vb, 270, 270); // Crea una escena con el VBox
-        window.setScene(sc); // Establece la escena en la ventana
-        window.show(); // Muestra la ventana
+        vb.getChildren().add(new Calculator()); 
+        Scene sc = new Scene(vb, 270, 270); 
+        window.setScene(sc); 
+        window.show(); 
     }
 
 }
